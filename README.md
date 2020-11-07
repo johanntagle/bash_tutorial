@@ -22,11 +22,9 @@ your system.*
 
 ## Goal
 
-In this tutorial, you will be looking for a word with 22 characters:
+In this tutorial, you will be looking for a phrase with 25 characters:
 
-![](solution.png)
-
-All characters are hidden in the exercises below.
+The characters are hidden in the exercises below.
 
 ## Preparations
 
@@ -43,7 +41,7 @@ All characters are hidden in the exercises below.
 
 ### 1.1. Navigating directories
 
-The **first character** is hidden in a file somewhere in the *exercise1*
+The **first two characters** is hidden in a file somewhere in the *exercise1*
 directory tree. Use the commands
 
 ``` {.sourceCode .bash}
@@ -79,14 +77,14 @@ command
 ls -a
 ```
 
-The **second character**, is in the same directory as the first one, but
+The **next two characters**, is in the same directory as the first one, but
 in a hidden file.
 
 ### 1.3. Execute a program
 
 Use cd .. to go back to the directory `exercise_1/directoryB/`. When
 listing its contents, you should see a **shell script file**
-`program.sh`. To find the **third character**, you need to execute the
+`program.sh`. To find the **fifth character**, you need to execute the
 program. On bash, this is done by typing source and the name of the
 program:
 
@@ -96,7 +94,7 @@ source program.sh
 
 ### 1.4. Find out how big a file is
 
-Go to the folder `exercise_1/directoryC/`. To find **the fourth
+Go to the folder `exercise_1/directoryC/`. To find **the sixth
 character**, you need to find out how big the text file in the directory
 is. This is done with the command
 
@@ -117,7 +115,6 @@ characters](https://en.wikipedia.org/wiki/ASCII#Printable_characters):
 *ASCII Table, Public Domain*
 
 <div class="admonition hint">
-
 When typing names of directories or files, press `[TAB]` after the first
 few characters. Unix tries to guess what you are typing.
 
@@ -133,7 +130,7 @@ material. Then, change to the directory `exercise_2`.
 ### 2.1. See what is in a text file
 
 In the directory *exercise\_2/*, you will find a text file
-*solution\_2.1.txt*. The **fifth character** is inside that file. To see
+*solution\_2.1.txt*. The **seventh character** is inside that file. To see
 its contents, use the command
 
 ``` {.sourceCode .bash}
@@ -142,7 +139,7 @@ less <filename>
 
 ### 2.2. Edit text files
 
-To get **character number six**, you will need to create a text file in
+To get **character number eigh**t, you will need to create a text file in
 the `exercise_2` directory. On Ubuntu, you can do this using the editor
 `nano`. You can start it typing the name of the program, or
 
@@ -154,8 +151,7 @@ nano <filename>
 
 Create a text file with the characters you have found so far.
 
-The **seventh character** is the one you need to press to save a file in
-`nano`.
+The **eighth character** is the first letter of the command represented by Ctrl-X
 
 <div class="admonition hint">
 
@@ -177,9 +173,9 @@ Please go to the directory exercise\_3.
 
 ### 3.1. Create a directory and copy a file to it.
 
-To find **characters seven and eight**, you need to create a
+To find **characters nine and ten**, you need to create a
 subdirectory named *solution* in `exercise_3/` and copy the files from
-the `code1/` and `code2/` folders into it.
+the `part1/` and `part2/` folders into it.
 
 For creating directories, use the command:
 
@@ -208,7 +204,7 @@ Also, there are more files to be deleted in the *data* directory. To
 remove more than one file at once, you can use `*` as a wildcard, i.e.
 `rm ju*` will delete all of `junk.txt, juniper.txt` and `june.docx`.
 
-To get **characters nine and ten**, look at the files that remain after
+To get **characters eleven and twelve**, look at the names of the files that remain after
 deleting all that contain a `Y`.
 
 <div class="admonition hint">
@@ -257,7 +253,7 @@ diff <filename1> <filename2>
 ```
 
 Of course, you can look at the text first using `less` or `nano`. The
-**11th character** of the solution is the single character in which the
+**13th character** of the solution is the single mistyped character in which the
 two files differ.
 
 ### 4.2. Sorting a text file
@@ -270,12 +266,11 @@ less <filename> | sort
 ```
 
 The symbol '|' is called a pipe and is often used to connect Unix
-programs to each other. The **12th character** of the solution is the
-first character of the last word in the alphabetically sorted file
-elephant.txt.
+programs to each other. The **14th character** of the solution is the
+third to the last character of the last word in the alphabetically sorted file
+elephant.txt. And the **15th character** is the second to the last one of the animal part mentioned in the text.
 
 <div class="admonition hint">
-
 To store the sorted lines in a new file, you can add an output file,
 like
 
@@ -296,11 +291,10 @@ grep <word> <filename>
 It produces all lines from the given file that contain the given word.
 The `grep` command is very powerful and can handle Regular Expressions.
 
-To find the **13th character**, search for the word **fire** in the file
-`datascience.txt` and take the **first** character of the output.
+To find the **16th character**, search for the word **has** in the file
+`datascience.txt` and take the **first** character of the second matching line in the output.
 
 <div class="admonition hint">
-
 You can search through many files at once by including a \* in the
 filename.
 
@@ -386,7 +380,7 @@ grants all users the permission to execute a file, while chmod u-w
 forbids the current user (oneself) to write to the file (thereby
 protecting it from being deleted accidentally).
 
-To see **characters 16+17** of the solution, make the program
+To see **characters 19+20** of the solution, make the program
 `permissions.sh` executable. Then execute it with:
 
 ``` {.sourceCode .bash}
@@ -415,14 +409,23 @@ df
 logical partitions Unix uses. All numbers are given in kilobyte (1000
 byte or one 1000000th GB).
 
-To obtain the **18th character**, check out the version of the `df`
-program. Find out how to do that with:
+To obtain the **21st character**, execute **df** and get the first character of the header row of the output.
 
-``` {.sourceCode .bash}
-df --help
-```
+From the same header, the **22nd character** is the first character of the title of the fourth column.
 
-The solution is the last character of the first authors' first name.
+
+
+
+
+## Just guess the last two characters! But do read on below to learn more - the characters that will result there are not part of our solution##
+
+
+
+
+
+
+
+
 
 ### 6.3. Set an environment variable
 
@@ -439,7 +442,7 @@ You can see all variables by the command
 env
 ```
 
-To obtain the **19th character**, you need to use `export` to set the
+To obtain the **22nd character**, you need to use `export` to set the
 variable *GIVEME* to the value **SOLUTION**.
 
 ``` {.sourceCode .bash}

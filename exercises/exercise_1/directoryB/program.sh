@@ -1,1 +1,1 @@
-echo "The third character is 'T'."
+echo "The fifth character is 'C'."
